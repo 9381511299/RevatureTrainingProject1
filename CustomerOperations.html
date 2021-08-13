@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body background="C:\Users\keert\OneDrive\Pictures\transfer.jpg">
+
+<h2 style="text-align:center; text-decoration:underline;">Welcome to Transactions</h2>
+
+<center><form  action="get" method="get">
+<input type="submit" name=submit value="CheckBalance">
+</form>
+<br><br>
+<form action="deposit" method="get">
+<input type="number" min="1000" name="deposit" placeholder="Deposit">
+<br><br>
+<input type="submit" name="submit" value="Deposit money">
+</form>
+<br>
+<br>
+<form action="with" method="get">
+<input type="number" min="500" name="withdraw" placeholder="Withdraw">
+<br><br>
+<input type="submit" name="submit" value="WithDraw">
+</form>
+
+<br>
+<br>
+
+<form action="transfer" method="get">
+<br>
+<input type="text" name="idN"  placeholder="AccountNo">
+<br><br>
+<input type="number" min="500" name="transfer" placeholder="transfer">
+<br>
+<br>
+<input type="submit" name="transfer" value="transfer">
+<br><br><a href="index.html">Goto Home Page</a>
+</form>
+</center>
+</body>
+</html>
